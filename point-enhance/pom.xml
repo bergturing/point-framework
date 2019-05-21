@@ -10,10 +10,10 @@
         <relativePath/>
     </parent>
 
-    <artifactId>point-core</artifactId>
+    <artifactId>point-enhance</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>point-core</name>
-    <description>点系列-核心功能</description>
+    <name>point-enhance</name>
+    <description>点系列-基础类增强功能模块</description>
 
     <dependencies>
         <dependency>
