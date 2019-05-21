@@ -1,7 +1,6 @@
 package com.bergturing.point.dal;
 
 import com.bergturing.point.dal.exceptions.LockFailureException;
-import com.bergturing.point.dal.utils.DalUtils;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

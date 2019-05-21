@@ -1,7 +1,5 @@
-package com.bergturing.point.dal.utils;
+package com.bergturing.point.dal;
 
-import com.bergturing.point.dal.DalExecutor;
-import com.bergturing.point.dal.Lock;
 import com.bergturing.point.dal.exceptions.LockFailureException;
 import com.bergturing.point.utils.CollectionUtils;
 
