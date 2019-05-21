@@ -13,9 +13,14 @@
     </parent>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
+        <module>utils</module>
     </modules>
     <name>point parent</name>
     <dependencies>
-
+        <dependency>
+            <groupId>com.bergturing.point</groupId>
+            <artifactId>utils</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 </project>
