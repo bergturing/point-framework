@@ -12,7 +12,7 @@ import java.util.function.Function;
 /**
  * 方法结果封装的工厂接口
  *
- * @author bo.he02@hand-china.com
+ * @author bergturing@qq.com
  * @apiNote 2018/08/06
  * @see MethodResult
  */

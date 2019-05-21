@@ -20,6 +20,7 @@
         <module>point-core</module>
         <module>point-utils</module>
         <module>point-enhance</module>
+        <module>point-stream</module>
         <module>point-dal</module>
         <module>point-excel</module>
     </modules>
@@ -39,18 +40,5 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
-
-        <!--        <dependency>-->
-        <!--            <groupId>com.bergturing</groupId>-->
-        <!--            <artifactId>point-utils</artifactId>-->
-        <!--            <version>0.0.1-SNAPSHOT</version>-->
-        <!--        </dependency>-->
-
-        <!--        <dependency>-->
-        <!--            <groupId>com.bergturing</groupId>-->
-        <!--            <artifactId>point-dal</artifactId>-->
-        <!--            <version>0.0.1-SNAPSHOT</version>-->
-        <!--        </dependency>-->
     </dependencies>
 </project>

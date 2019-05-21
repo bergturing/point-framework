@@ -3,7 +3,7 @@ package com.bergturing.point.core.result.exceptions;
 /**
  * 结果值为多个值异常
  *
- * @author bo.he02@hand-china.com
+ * @author bergturing@qq.com
  * @apiNote 2019/3/18
  */
 public class MultiResultException extends RuntimeException {
