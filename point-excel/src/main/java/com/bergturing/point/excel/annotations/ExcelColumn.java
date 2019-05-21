@@ -15,13 +15,20 @@ public @interface ExcelColumn {
      * @return excel列的列名
      */
     @AliasFor("value")
-    String columnName();
+    String columnTitle();
 
     /**
      * excel列的列名
      *
      * @return excel列的列名
      */
-    @AliasFor("columnName")
+    @AliasFor("columnTitle")
     String value();
+
+    /**
+     * 单元格默认值
+     *
+     * @return 单元格默认值
+     */
+    String cellDefaultValue() default "";
 }
