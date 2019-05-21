@@ -17,7 +17,9 @@
     <name>point parent</name>
 
     <modules>
+        <module>point-core</module>
         <module>point-utils</module>
+        <module>point-dal</module>
     </modules>
 
     <properties>
@@ -36,19 +38,17 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>com.bergturing</groupId>
-            <artifactId>point-utils</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+        <!--        <dependency>-->
+        <!--            <groupId>com.bergturing</groupId>-->
+        <!--            <artifactId>point-utils</artifactId>-->
+        <!--            <version>0.0.1-SNAPSHOT</version>-->
+        <!--        </dependency>-->
+
+        <!--        <dependency>-->
+        <!--            <groupId>com.bergturing</groupId>-->
+        <!--            <artifactId>point-dal</artifactId>-->
+        <!--            <version>0.0.1-SNAPSHOT</version>-->
+        <!--        </dependency>-->
+    </dependencies>
 </project>

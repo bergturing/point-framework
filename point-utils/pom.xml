@@ -14,11 +14,4 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>point-utils</name>
     <description>点系列-工具集模块</description>
-
-    <dependencies>
-        <dependency>
-            <groupId>com.bergturing</groupId>
-            <artifactId>point-parent</artifactId>
-        </dependency>
-    </dependencies>
 </project>
