@@ -10,10 +10,10 @@
         <relativePath/>
     </parent>
 
-    <artifactId>point-utils</artifactId>
+    <artifactId>point-dal</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>point-utils</name>
-    <description>点系列-工具集模块</description>
+    <name>point-dal</name>
+    <description>点系列-分布式应用锁</description>
 
     <dependencies>
         <dependency>
@@ -21,4 +21,5 @@
             <artifactId>point-parent</artifactId>
         </dependency>
     </dependencies>
+
 </project>
