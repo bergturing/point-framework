@@ -21,6 +21,7 @@
         <module>point-utils</module>
         <module>point-enhance</module>
         <module>point-dal</module>
+        <module>point-excel</module>
     </modules>
 
     <properties>
