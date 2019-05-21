@@ -19,6 +19,7 @@
     <modules>
         <module>point-core</module>
         <module>point-utils</module>
+        <module>point-enhance</module>
         <module>point-dal</module>
     </modules>
 
