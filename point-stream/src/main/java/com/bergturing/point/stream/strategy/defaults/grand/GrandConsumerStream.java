@@ -1,7 +1,7 @@
-package com.bergturing.point.core.stream.defaults.grand;
+package com.bergturing.point.stream.strategy.defaults.grand;
 
-import com.bergturing.point.core.stream.ConsumerStream;
-import com.bergturing.point.core.stream.defaults.components.GrandEntity;
+import com.bergturing.point.stream.strategy.ConsumerStream;
+import com.bergturing.point.stream.strategy.defaults.components.GrandEntity;
 
 import java.util.Collection;
 import java.util.Map;
@@ -11,7 +11,7 @@ import java.util.stream.Stream;
 /**
  * 累计资源消耗的策略
  *
- * @author bo.he02@hand-china.com
+ * @author bergturing@qq.com
  * @apiNote 2019/5/9
  */
 public class GrandConsumerStream<E> implements ConsumerStream<E> {

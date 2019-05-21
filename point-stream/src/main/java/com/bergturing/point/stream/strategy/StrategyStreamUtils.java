@@ -1,7 +1,7 @@
-package com.bergturing.point.core.stream;
+package com.bergturing.point.stream.strategy;
 
-import com.bergturing.point.core.stream.defaults.count.CountConsumerStream;
-import com.bergturing.point.core.stream.defaults.count.CountFunctionStream;
+import com.bergturing.point.stream.strategy.defaults.count.CountConsumerStream;
+import com.bergturing.point.stream.strategy.defaults.count.CountFunctionStream;
 
 import java.util.Collection;
 import java.util.Optional;
@@ -14,7 +14,7 @@ import static com.bergturing.point.utils.CollectionUtils.isNotEmpty;
 /**
  * 集合策略流工具类
  *
- * @author bo.he02@hand-china.com
+ * @author bergturing@qq.com
  * @apiNote 2019/5/9
  */
 public class StrategyStreamUtils {

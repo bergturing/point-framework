@@ -1,4 +1,4 @@
-package com.bergturing.point.core.stream;
+package com.bergturing.point.stream.strategy;
 
 import java.util.Collection;
 import java.util.function.Function;
@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 /**
  * 集合的策略流，有处理结果的
  *
- * @author bo.he02@hand-china.com
+ * @author bergturing@qq.com
  * @apiNote 2019/5/9
  */
 @FunctionalInterface

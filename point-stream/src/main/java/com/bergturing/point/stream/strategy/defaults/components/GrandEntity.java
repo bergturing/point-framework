@@ -1,9 +1,9 @@
-package com.bergturing.point.core.stream.defaults.components;
+package com.bergturing.point.stream.strategy.defaults.components;
 
 /**
  * 累计实体对象
  *
- * @author bo.he02@hand-china.com
+ * @author bergturing@qq.com
  * @apiNote 2019/5/9
  */
 public class GrandEntity {

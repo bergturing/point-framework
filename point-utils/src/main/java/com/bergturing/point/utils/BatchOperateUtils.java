@@ -14,7 +14,7 @@ import java.util.function.Function;
 /**
  * 分批处理工具类
  *
- * @author bo.he02@hand-china.com
+ * @author bergturing@qq.com
  * @apiNote 2019/1/7
  */
 public class BatchOperateUtils {

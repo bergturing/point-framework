@@ -5,7 +5,7 @@ package com.bergturing.point.core.result;
  * 将方法需要返回的结果和对结果描述的一些额外信息封装
  *
  * @param <T> 结果类型
- * @author bo.he02@hand-china.com
+ * @author bergturing@qq.com
  * @apiNote 2018/08/06
  */
 public interface MethodResult<S, T> {

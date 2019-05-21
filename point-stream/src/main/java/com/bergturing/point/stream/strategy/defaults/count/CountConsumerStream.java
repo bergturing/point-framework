@@ -1,6 +1,6 @@
-package com.bergturing.point.core.stream.defaults.count;
+package com.bergturing.point.stream.strategy.defaults.count;
 
-import com.bergturing.point.core.stream.ConsumerStream;
+import com.bergturing.point.stream.strategy.ConsumerStream;
 
 import java.util.Collection;
 import java.util.function.Consumer;
@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 /**
  * 基于数量的流策略(消费)
  *
- * @author bo.he02@hand-china.com
+ * @author bergturing@qq.com
  * @apiNote 2019/5/9
  */
 public class CountConsumerStream<E> extends AbstractCountStream implements ConsumerStream<E> {

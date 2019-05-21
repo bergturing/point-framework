@@ -7,7 +7,7 @@ import com.bergturing.point.core.result.MethodResult;
  *
  * @param <S> 状态泛型
  * @param <T> 结果类型
- * @author bo.he02@hand-china.com
+ * @author bergturing@qq.com
  * @apiNote 2018/08/06
  * @see MethodResult 接口的默认实现，实现了内部的通用功能
  */

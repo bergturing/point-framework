@@ -1,9 +1,9 @@
-package com.bergturing.point.core.stream.defaults.count;
+package com.bergturing.point.stream.strategy.defaults.count;
 
 /**
  * 抽象的计数流策略
  *
- * @author bo.he02@hand-china.com
+ * @author bergturing@qq.com
  * @apiNote 2019/5/13
  */
 abstract class AbstractCountStream {
