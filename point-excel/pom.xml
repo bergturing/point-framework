@@ -14,4 +14,18 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>point-excel</name>
     <description>点系列-excel相关功能的包装</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.github.bergturing</groupId>
+            <artifactId>point-utils</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.bergturing</groupId>
+            <artifactId>point-stream</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
