@@ -6,7 +6,7 @@ package io.github.bergturing.point.excel.dataset;
  * @author bergturing@qq.com
  * @apiNote 2019/5/22
  */
-public interface Record<E> {
+public interface Record {
     /**
      * 获取指定属性字段的值
      *

@@ -1,10 +1,7 @@
 package io.github.bergturing.point.excel.dataset.impl;
 
 import io.github.bergturing.point.excel.ExcelFactory;
-import io.github.bergturing.point.excel.dataset.DataSet;
-import io.github.bergturing.point.excel.dataset.Field;
-import io.github.bergturing.point.excel.dataset.FieldProps;
-import io.github.bergturing.point.excel.dataset.Record;
+import io.github.bergturing.point.excel.dataset.*;
 
 import java.util.*;
 
@@ -14,26 +11,31 @@ import static io.github.bergturing.point.utils.CollectionUtils.isNotEmpty;
 import static java.util.stream.Collectors.toList;
 
 /**
- * 数据集接口的抽象实现
+ * 数据集接口的简单实现
  *
  * @author bergturing@qq.com
  * @apiNote 2019/5/22
  */
-public class SimpleDataSet<E> implements DataSet<E> {
+public class SimpleDataSet implements DataSet {
+    /**
+     * 数据集配置对象
+     */
+    private DataSetProps props;
+
     /**
      * 语言环境
      */
-    Locale locale;
+    private Locale locale;
 
     /**
      * 字段对象
      */
-    private Map<String, Field<E>> fields = new HashMap<>(16);
+    private Map<String, Field> fields = new HashMap<>(16);
 
     /**
      * 数据集中的数据
      */
-    private List<Record<E>> records = Collections.emptyList();
+    private List<Record> records = Collections.emptyList();
 
     /**
      * 标识是否分页
@@ -54,6 +56,11 @@ public class SimpleDataSet<E> implements DataSet<E> {
      * 当前页
      */
     private Integer currentPage;
+
+    public SimpleDataSet(DataSetProps dataSetProps) {
+        // 属性赋值
+        this.props = ExcelFactory.createDataSetProps(dataSetProps);
+    }
 
     @Override
     public Locale getLocale() {
@@ -107,7 +114,7 @@ public class SimpleDataSet<E> implements DataSet<E> {
     }
 
     @Override
-    public Field<E> getField(String name) {
+    public Field getField(String name) {
         // 根据名字获取字段对象
         return this.fields.get(name);
     }
@@ -124,7 +131,7 @@ public class SimpleDataSet<E> implements DataSet<E> {
     @Override
     public Field addField(String name, FieldProps fieldProps) {
         // 创建属性字段
-        final Field<E> field = ExcelFactory.createField(fieldProps, this);
+        final Field field = ExcelFactory.createField(fieldProps, this);
         // 设置属性字段
         this.fields.put(name, field);
 
@@ -133,7 +140,7 @@ public class SimpleDataSet<E> implements DataSet<E> {
     }
 
     @Override
-    public DataSet<E> loadData(List<E> dataList, Integer totalCount) {
+    public DataSet loadData(List<Object> dataList, Integer totalCount) {
         if (isNotEmpty(dataList)) {
             // 获取数据
             dataList = this.getPaging() ? dataList.subList(0, this.getPageSize()) : dataList;

@@ -18,6 +18,12 @@
     <dependencies>
         <dependency>
             <groupId>io.github.bergturing</groupId>
+            <artifactId>point-core</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.bergturing</groupId>
             <artifactId>point-utils</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>

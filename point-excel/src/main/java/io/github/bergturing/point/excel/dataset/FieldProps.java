@@ -12,8 +12,6 @@ import java.math.BigDecimal;
  * @apiNote 2019/5/22
  */
 public interface FieldProps {
-//    FieldProps DEFAULT_FIELD_PROPS =
-
     /**
      * 获取字段名
      *

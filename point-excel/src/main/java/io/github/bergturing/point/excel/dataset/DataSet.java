@@ -9,7 +9,7 @@ import java.util.Locale;
  * @author bergturing@qq.com
  * @apiNote 2019/5/22
  */
-public interface DataSet<E> {
+public interface DataSet {
     /**
      * 获取语言环境对象
      *
@@ -104,5 +104,5 @@ public interface DataSet<E> {
      * @param totalCount 数据的总量
      * @return 数据集对象
      */
-    DataSet<E> loadData(List<E> dataList, Integer totalCount);
+    DataSet loadData(List<Object> dataList, Integer totalCount);
 }

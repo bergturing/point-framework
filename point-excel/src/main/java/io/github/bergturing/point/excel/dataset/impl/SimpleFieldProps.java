@@ -1,5 +1,7 @@
 package io.github.bergturing.point.excel.dataset.impl;
 
+import io.github.bergturing.point.core.prototype.Prototype;
+import io.github.bergturing.point.core.prototype.defaults.AbstractPrototype;
 import io.github.bergturing.point.excel.dataset.FieldProps;
 import io.github.bergturing.point.excel.enums.FieldType;
 import io.github.bergturing.point.excel.validator.Validator;
@@ -7,7 +9,7 @@ import io.github.bergturing.point.excel.validator.Validator;
 import java.math.BigDecimal;
 
 /**
- * 字段属性接口的默认实现
+ * 字段属性接口的简单实现
  *
  * @author bergturing@qq.com
  * @apiNote 2019/5/22
@@ -16,79 +18,32 @@ public class SimpleFieldProps implements FieldProps {
     /**
      * 默认的字段属性对象
      */
-    public static final FieldProps DEFAULT_SIMPLE_FIELD_PROPS = new SimpleFieldProps() {
-        /**
-         * 默认的字段属性对象
-         */
-        private final FieldProps defaultSimpleFieldProps = new SimpleFieldProps();
+    private static final SimpleFieldProps DEFAULT_SIMPLE_FIELD_PROPS = new SimpleFieldProps();
 
+    /**
+     * 初始化原型对象
+     */
+    public static final Prototype<SimpleFieldProps> PROTOTYPE =
+            new AbstractPrototype<SimpleFieldProps>(DEFAULT_SIMPLE_FIELD_PROPS) {
+                @Override
+                protected SimpleFieldProps clone(SimpleFieldProps prototype) throws CloneNotSupportedException {
+                    return (SimpleFieldProps) prototype.clone();
+                }
+            };
+
+    // 静态初始化代码块
+    static {
         {
             // 设置默认属性值
-            // 是否必须
-            this.defaultSimpleFieldProps.setRequired(Boolean.FALSE);
-            // true的默认值
-            this.defaultSimpleFieldProps.setTrueValue("TRUE");
-            // false的默认值
-            this.defaultSimpleFieldProps.setFalseValue("FALSE");
+            // 是否必须     是
+            DEFAULT_SIMPLE_FIELD_PROPS.setRequired(Boolean.FALSE);
+            // true的默认值     TRUE
+            DEFAULT_SIMPLE_FIELD_PROPS.setTrueValue("TRUE");
+            // false的默认值    FALSE
+            DEFAULT_SIMPLE_FIELD_PROPS.setFalseValue("FALSE");
         }
+    }
 
-        @Override
-        public void setName(String name) {
-        }
-
-        @Override
-        public void setType(FieldType type) {
-        }
-
-        @Override
-        public void setLabel(String label) {
-            super.setLabel(label);
-        }
-
-        @Override
-        public void setFormat(String format) {
-        }
-
-        @Override
-        public void setPattern(String pattern) {
-        }
-
-        @Override
-        public void setMinLength(Integer minLength) {
-        }
-
-        @Override
-        public void setMaxLength(Integer maxLength) {
-        }
-
-        @Override
-        public void setMin(BigDecimal min) {
-        }
-
-        @Override
-        public void setMax(BigDecimal max) {
-        }
-
-        @Override
-        public void setValidator(Validator<?, ?> validator) {
-        }
-
-        @Override
-        public void setRequired(Boolean required) {
-        }
-
-        @Override
-        public void setTrueValue(String trueValue) {
-        }
-
-        @Override
-        public void setFalseValue(String falseValue) {
-        }
-
-        @Override
-        public void setDefaultValue(String defaultValue) {
-        }
-    };
     /**
      * 字段名
      */

@@ -6,7 +6,7 @@ package io.github.bergturing.point.excel.dataset;
  * @author bergturing@qq.com
  * @apiNote 2019/5/22
  */
-public interface Field<E> {
+public interface Field {
     /**
      * 获取字段名称
      *
