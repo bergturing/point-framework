@@ -10,7 +10,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.bergturing</groupId>
+    <groupId>io.github.bergturing</groupId>
     <artifactId>point-parent</artifactId>
     <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
