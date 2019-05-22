@@ -12,7 +12,7 @@ import java.math.BigDecimal;
  * 字段属性接口的简单实现
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/22
+ * @date 2019/5/22
  */
 public class SimpleFieldProps implements FieldProps {
     /**

@@ -15,7 +15,7 @@ import java.util.List;
  * 在 StringRedisTemplate 存在时，自动注入
  *
  * @author bergturing@qq.com
- * @apiNote 2019/3/14
+ * @date 2019/3/14
  * @see StringRedisTemplate
  */
 public class RedisDalExecutor extends AbstractDalExecutor {

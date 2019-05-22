@@ -16,7 +16,7 @@ import java.lang.annotation.Annotation;
  * 抽象的分布式应用锁代理配置实现
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/10
+ * @date 2019/5/10
  */
 @Configuration
 @Role(BeanDefinition.ROLE_INFRASTRUCTURE)

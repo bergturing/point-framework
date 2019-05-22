@@ -22,7 +22,7 @@ import java.util.Set;
  * 分布式应用锁注解的Advisor
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/10
+ * @date 2019/5/10
  */
 public class DalAnnotationAdvisor extends AbstractPointcutAdvisor implements BeanFactoryAware {
     /**

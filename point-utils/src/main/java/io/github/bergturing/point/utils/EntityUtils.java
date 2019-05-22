@@ -9,7 +9,7 @@ import java.util.Objects;
  * 实体工具类
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/19
+ * @date 2019/5/19
  */
 public class EntityUtils {
     /**

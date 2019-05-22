@@ -9,7 +9,7 @@ import java.lang.annotation.*;
  * 分布式锁加锁的字段
  *
  * @author bergturing@qq.com
- * @apiNote 2019/4/24
+ * @date 2019/4/24
  */
 @Inherited
 @Documented

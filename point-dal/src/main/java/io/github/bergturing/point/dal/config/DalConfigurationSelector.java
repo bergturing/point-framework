@@ -11,7 +11,7 @@ import org.springframework.core.type.AnnotationMetadata;
  * 分布式应用锁配置的选择器
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/10
+ * @date 2019/5/10
  */
 public class DalConfigurationSelector implements ImportSelector {
     /**

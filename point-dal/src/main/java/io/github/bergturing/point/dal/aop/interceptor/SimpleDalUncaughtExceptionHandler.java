@@ -11,7 +11,7 @@ import static io.github.bergturing.point.utils.LoggerUtils.error;
  * 分布式应用锁未捕获的异常处理器的简单实现
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/10
+ * @date 2019/5/10
  */
 public class SimpleDalUncaughtExceptionHandler implements DalUncaughtExceptionHandler {
     /**

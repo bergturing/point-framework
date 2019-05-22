@@ -4,7 +4,7 @@ package io.github.bergturing.point.dal.enums;
  * 加锁的默认加锁的加锁组合
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/17
+ * @date 2019/5/17
  */
 public enum Union {
     /**

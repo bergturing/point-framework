@@ -6,7 +6,7 @@ package io.github.bergturing.point.core.result;
  *
  * @param <T> 结果类型
  * @author bergturing@qq.com
- * @apiNote 2018/08/06
+ * @date 2018/08/06
  */
 public interface MethodResult<S, T> {
     /**

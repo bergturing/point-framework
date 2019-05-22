@@ -4,7 +4,7 @@ package io.github.bergturing.point.excel.convert;
  * 内容转换接口
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/21
+ * @date 2019/5/21
  */
 @FunctionalInterface
 public interface Convert<V> {

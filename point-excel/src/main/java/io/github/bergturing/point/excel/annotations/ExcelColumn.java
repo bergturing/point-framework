@@ -9,7 +9,7 @@ import java.lang.annotation.*;
  * Excel列的注解
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/21
+ * @date 2019/5/21
  */
 @Target({ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)

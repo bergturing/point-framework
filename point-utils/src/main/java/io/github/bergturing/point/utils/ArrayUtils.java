@@ -4,7 +4,7 @@ package io.github.bergturing.point.utils;
  * 数组工具类
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/19
+ * @date 2019/5/19
  */
 public class ArrayUtils {
     /**

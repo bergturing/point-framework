@@ -16,7 +16,7 @@ import static io.github.bergturing.point.utils.CollectionUtils.isEmpty;
  * 分布式应用锁配置的抽象实现
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/10
+ * @date 2019/5/10
  */
 @Configuration
 public abstract class AbstractDalConfiguration implements ImportAware {

@@ -8,7 +8,7 @@ import com.sun.tools.javac.tree.TreeMaker;
  * 处理器的工具类
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/21
+ * @date 2019/5/21
  */
 public class ProcessorUtils {
     /**

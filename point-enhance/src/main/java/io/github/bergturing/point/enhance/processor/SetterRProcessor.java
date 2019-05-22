@@ -23,7 +23,7 @@ import java.util.Set;
  * SetterR注解的处理器
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/19
+ * @date 2019/5/19
  */
 @SupportedAnnotationTypes(AnnotationConstants.SETTER_R)
 @SupportedSourceVersion(SourceVersion.RELEASE_8)

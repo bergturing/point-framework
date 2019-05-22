@@ -10,7 +10,7 @@ import org.springframework.data.redis.core.StringRedisTemplate;
  * redis的配置类
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/21
+ * @date 2019/5/21
  */
 @Configuration
 public class RedisConfiguration {

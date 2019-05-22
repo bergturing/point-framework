@@ -6,7 +6,7 @@ import java.lang.annotation.*;
  * 加锁的节点，一般用于集合类型
  *
  * @author bergturing@qq.com
- * @apiNote 2019/4/24
+ * @date 2019/4/24
  */
 @Inherited
 @Documented

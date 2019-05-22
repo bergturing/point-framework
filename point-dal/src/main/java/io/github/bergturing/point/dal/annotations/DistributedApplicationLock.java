@@ -6,7 +6,7 @@ import java.lang.annotation.*;
  * 分布式应用锁的注解
  *
  * @author bergturing@qq.com
- * @apiNote 2019/4/24
+ * @date 2019/4/24
  */
 @Target({ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)

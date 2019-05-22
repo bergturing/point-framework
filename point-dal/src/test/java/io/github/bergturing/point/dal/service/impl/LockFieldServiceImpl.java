@@ -21,7 +21,7 @@ import static io.github.bergturing.point.utils.LoggerUtils.debug;
  * 对属性加锁的服务实现
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/21
+ * @date 2019/5/21
  */
 @Service(SERVICE_FIELD)
 public class LockFieldServiceImpl implements ILockService {

@@ -12,7 +12,7 @@ import static java.util.stream.Collectors.toList;
  * 集合工具类的测试类
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/19
+ * @date 2019/5/19
  */
 public class CollectionUtilsTests {
     @Test

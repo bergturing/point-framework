@@ -6,7 +6,7 @@ import io.github.bergturing.point.dal.aop.interceptor.DalUncaughtExceptionHandle
  * 分布式应用锁配置对象
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/10
+ * @date 2019/5/10
  */
 public interface DalConfigurer {
     /**

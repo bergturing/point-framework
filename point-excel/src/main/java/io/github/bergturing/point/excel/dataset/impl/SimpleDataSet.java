@@ -14,7 +14,7 @@ import static java.util.stream.Collectors.toList;
  * 数据集接口的简单实现
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/22
+ * @date 2019/5/22
  */
 public class SimpleDataSet implements DataSet {
     /**

@@ -13,7 +13,7 @@ import java.lang.annotation.*;
  * 启用分布式应用锁的注解
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/10
+ * @date 2019/5/10
  */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)

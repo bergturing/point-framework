@@ -12,7 +12,7 @@ import java.util.UUID;
  * 分布式锁对象
  *
  * @author bergturing@qq.com
- * @apiNote 2019/3/14
+ * @date 2019/3/14
  */
 public class Lock implements Cloneable {
     /**

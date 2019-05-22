@@ -4,7 +4,7 @@ package io.github.bergturing.point.stream.strategy.defaults.count;
  * 抽象的计数流策略
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/13
+ * @date 2019/5/13
  */
 abstract class AbstractCountStream {
     /**

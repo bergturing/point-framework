@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
  * 对象原型
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/21
+ * @date 2019/5/21
  */
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.SOURCE)

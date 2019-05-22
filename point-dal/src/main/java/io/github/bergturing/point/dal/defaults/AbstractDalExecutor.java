@@ -15,7 +15,7 @@ import java.util.function.Supplier;
  * 分布式应用锁服务器抽象实现
  *
  * @author bergturing@qq.com
- * @apiNote 2019/3/14
+ * @date 2019/3/14
  */
 public abstract class AbstractDalExecutor implements DalExecutor {
     /**

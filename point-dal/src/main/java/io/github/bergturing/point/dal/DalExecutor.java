@@ -6,7 +6,7 @@ import java.util.List;
  * 分布式应用锁的接口
  *
  * @author bergturing@qq.com
- * @apiNote 2019/4/17
+ * @date 2019/4/17
  */
 public interface DalExecutor {
     /**
