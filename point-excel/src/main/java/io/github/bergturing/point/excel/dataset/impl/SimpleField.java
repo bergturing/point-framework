@@ -11,7 +11,6 @@ import io.github.bergturing.point.excel.validator.Validator;
  * 属性字段的接口的简单实现
  *
  * @author bergturing@qq.com
- * @date 2019/5/22
  */
 public class SimpleField implements Field {
     /**

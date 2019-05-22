@@ -11,7 +11,6 @@ import io.github.bergturing.point.dal.enums.Union;
  * 实体对象
  *
  * @author bergturing@qq.com
- * @date 2019/5/21
  */
 public class Entity implements Cloneable {
     /**

@@ -6,7 +6,6 @@ import io.github.bergturing.point.excel.dataset.Record;
  * 校验器接口
  *
  * @author bergturing@qq.com
- * @date 2019/5/21
  */
 public interface Validator<V, E> {
     /**

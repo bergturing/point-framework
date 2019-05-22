@@ -19,7 +19,6 @@ import java.lang.annotation.Target;
  * 的方法
  *
  * @author bergturing@qq.com
- * @date 2019/5/19
  */
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.SOURCE)

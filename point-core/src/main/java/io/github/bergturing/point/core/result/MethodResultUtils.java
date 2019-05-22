@@ -13,7 +13,6 @@ import java.util.function.Function;
  * 方法结果封装的工厂接口
  *
  * @author bergturing@qq.com
- * @date 2018/08/06
  * @see MethodResult
  */
 public class MethodResultUtils {

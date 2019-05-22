@@ -10,7 +10,6 @@ import java.util.function.BiPredicate;
  * 集合工具类
  *
  * @author bergturing@qq.com
- * @date 2019/5/19
  */
 public class CollectionUtils {
     /**

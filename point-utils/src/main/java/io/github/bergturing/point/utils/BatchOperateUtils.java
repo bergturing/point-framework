@@ -15,7 +15,6 @@ import java.util.function.Function;
  * 分批处理工具类
  *
  * @author bergturing@qq.com
- * @date 2019/1/7
  */
 public class BatchOperateUtils {
     /**

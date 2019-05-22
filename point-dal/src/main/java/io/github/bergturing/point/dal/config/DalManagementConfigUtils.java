@@ -4,7 +4,6 @@ package io.github.bergturing.point.dal.config;
  * 分布式应用锁内部配置常量
  *
  * @author bergturing@qq.com
- * @date 2019/5/10
  */
 public class DalManagementConfigUtils {
     /**

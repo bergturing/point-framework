@@ -8,7 +8,6 @@ import io.github.bergturing.point.dal.aop.interceptor.DalUncaughtExceptionHandle
  * 注解式分布式应用锁的拦截器
  *
  * @author bergturing@qq.com
- * @date 2019/5/10
  */
 public class AnnotationDalExecutionInterceptor extends DalExecutionInterceptor {
     public AnnotationDalExecutionInterceptor(DalExecutor dalExecutor) {

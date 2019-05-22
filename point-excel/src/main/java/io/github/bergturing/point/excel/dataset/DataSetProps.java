@@ -7,7 +7,6 @@ import java.util.Locale;
  * 数据集配置接口
  *
  * @author bergturing@qq.com
- * @date 2019/5/22
  */
 public interface DataSetProps {
     /**

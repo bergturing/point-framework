@@ -4,7 +4,6 @@ package io.github.bergturing.point.excel.constants;
  * Excel的常量
  *
  * @author bergturing@qq.com
- * @date 2019/5/21
  */
 public class ExcelConstants {
     /**

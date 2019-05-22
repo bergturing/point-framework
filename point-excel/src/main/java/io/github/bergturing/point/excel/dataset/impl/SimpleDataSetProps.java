@@ -12,7 +12,6 @@ import java.util.Locale;
  * 数据集配置接口的简单实现
  *
  * @author bergturing@qq.com
- * @date 2019/5/22
  */
 public class SimpleDataSetProps implements DataSetProps {
     /**

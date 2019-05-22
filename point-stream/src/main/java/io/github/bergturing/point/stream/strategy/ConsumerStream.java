@@ -8,7 +8,6 @@ import java.util.stream.Stream;
  * 集合的策略流，没有处理结果的
  *
  * @author bergturing@qq.com
- * @date 2019/5/9
  */
 @FunctionalInterface
 public interface ConsumerStream<E> {

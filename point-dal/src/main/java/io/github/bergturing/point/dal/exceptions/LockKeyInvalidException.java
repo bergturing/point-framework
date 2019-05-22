@@ -4,7 +4,6 @@ package io.github.bergturing.point.dal.exceptions;
  * 锁的key值无效的异常
  *
  * @author bergturing@qq.com
- * @date 2019/3/14
  */
 public class LockKeyInvalidException extends RuntimeException {
     private static final long serialVersionUID = -4343688130161744058L;

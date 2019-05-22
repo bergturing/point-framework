@@ -13,7 +13,7 @@
     <groupId>io.github.bergturing</groupId>
     <artifactId>point-parent</artifactId>
     <packaging>pom</packaging>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>${point.version}</version>
 
     <name>point parent</name>
     <description>this is the point's parent module</description>
@@ -50,9 +50,12 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <point.version>0.0.1-SNAPSHOT</point.version>
     </properties>
 
     <dependencies>
+        <!--   point依赖开始    -->
+        <!--   point依赖结束    -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
@@ -105,6 +108,7 @@
                         <version>1.6</version>
                         <executions>
                             <execution>
+                                <id>sign-artifacts</id>
                                 <phase>verify</phase>
                                 <goals>
                                     <goal>sign</goal>
@@ -117,11 +121,11 @@
             <distributionManagement>
                 <snapshotRepository>
                     <id>oss</id>
-                    <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+                    <url>https://oss.sonatype.org/content/repositories/snapshots</url>
                 </snapshotRepository>
                 <repository>
                     <id>oss</id>
-                    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+                    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
                 </repository>
             </distributionManagement>
         </profile>

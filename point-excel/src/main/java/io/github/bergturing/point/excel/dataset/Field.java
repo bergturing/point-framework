@@ -4,7 +4,6 @@ package io.github.bergturing.point.excel.dataset;
  * 属性字段的接口
  *
  * @author bergturing@qq.com
- * @date 2019/5/22
  */
 public interface Field {
     /**

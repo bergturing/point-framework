@@ -6,7 +6,6 @@ import org.junit.Test;
  * 数组工具类的测试类
  *
  * @author bergturing@qq.com
- * @date 2019/5/19
  */
 public class ArrayUtilsTests {
     @Test

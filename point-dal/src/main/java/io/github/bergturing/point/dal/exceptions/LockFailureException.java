@@ -4,7 +4,6 @@ package io.github.bergturing.point.dal.exceptions;
  * 加分布式锁失败的异常
  *
  * @author bergturing@qq.com
- * @date 2019/3/15
  */
 public class LockFailureException extends Exception {
     private static final long serialVersionUID = 7917659379513120095L;

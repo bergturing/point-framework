@@ -12,7 +12,6 @@ import static io.github.bergturing.point.utils.LoggerUtils.error;
  * 分布式应用锁的支持
  *
  * @author bergturing@qq.com
- * @date 2019/5/10
  */
 public abstract class BaseDalExecutionAspectSupport {
 

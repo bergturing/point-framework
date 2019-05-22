@@ -4,7 +4,6 @@ package io.github.bergturing.point.core.prototype;
  * 原型拷贝接口(主要用于原型的浅拷贝)
  *
  * @author bergturing@qq.com
- * @date 2019/5/21
  */
 public interface Prototype<T> {
     /**

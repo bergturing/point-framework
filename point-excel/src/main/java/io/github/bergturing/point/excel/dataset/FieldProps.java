@@ -9,7 +9,6 @@ import java.math.BigDecimal;
  * 字段属性配置接口
  *
  * @author bergturing@qq.com
- * @date 2019/5/22
  */
 public interface FieldProps {
     /**

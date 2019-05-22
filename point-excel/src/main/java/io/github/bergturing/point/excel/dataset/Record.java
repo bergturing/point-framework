@@ -4,7 +4,6 @@ package io.github.bergturing.point.excel.dataset;
  * 记录对象接口
  *
  * @author bergturing@qq.com
- * @date 2019/5/22
  */
 public interface Record {
     /**

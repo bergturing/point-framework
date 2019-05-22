@@ -14,7 +14,6 @@ import java.util.List;
  * 关联对象
  *
  * @author bergturing@qq.com
- * @date 2019/5/21
  */
 public class Association implements Cloneable {
     /**

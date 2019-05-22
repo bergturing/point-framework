@@ -15,7 +15,6 @@ import static io.github.bergturing.point.utils.CollectionUtils.isNotEmpty;
  * 集合策略流工具类
  *
  * @author bergturing@qq.com
- * @date 2019/5/9
  */
 public class StrategyStreamUtils {
     /**

@@ -9,7 +9,6 @@ import java.util.List;
  * 提供加锁数据的服务接口
  *
  * @author bergturing@qq.com
- * @date 2019/5/21
  */
 public interface ILockService {
     /**

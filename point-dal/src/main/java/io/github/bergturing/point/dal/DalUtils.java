@@ -17,7 +17,6 @@ import java.util.stream.Collectors;
  * 分布式应用锁工具
  *
  * @author bergturing@qq.com
- * @date 2019/3/15
  */
 public class DalUtils {
     /**

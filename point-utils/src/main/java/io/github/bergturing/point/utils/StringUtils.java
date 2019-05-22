@@ -4,7 +4,6 @@ package io.github.bergturing.point.utils;
  * 字符串工具类
  *
  * @author bergturing@qq.com
- * @date 2019/5/19
  */
 public class StringUtils {
     /**

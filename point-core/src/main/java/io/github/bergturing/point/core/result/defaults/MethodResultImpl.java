@@ -8,7 +8,6 @@ import io.github.bergturing.point.core.result.MethodResult;
  * @param <S> 状态泛型
  * @param <T> 结果类型
  * @author bergturing@qq.com
- * @date 2018/08/06
  * @see MethodResult 接口的默认实现，实现了内部的通用功能
  */
 public class MethodResultImpl<S, T> implements MethodResult<S, T> {
