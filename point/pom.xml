@@ -10,9 +10,9 @@
         <relativePath/>
     </parent>
 
-    <artifactId>point-dal</artifactId>
-    <name>point-dal</name>
-    <description>点系列-分布式应用锁</description>
+    <artifactId>point</artifactId>
+    <name>point</name>
+    <description>点系列项目</description>
 
     <dependencies>
         <dependency>
@@ -26,27 +26,23 @@
         </dependency>
 
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <scope>provided</scope>
+            <groupId>io.github.bergturing</groupId>
+            <artifactId>point-enhance</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>redis.clients</groupId>
-            <artifactId>jedis</artifactId>
-            <scope>provided</scope>
+            <groupId>io.github.bergturing</groupId>
+            <artifactId>point-stream</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-redis</artifactId>
-            <scope>provided</scope>
+            <groupId>io.github.bergturing</groupId>
+            <artifactId>point-dal</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
+            <groupId>io.github.bergturing</groupId>
+            <artifactId>point-excel</artifactId>
         </dependency>
     </dependencies>
-
 </project>

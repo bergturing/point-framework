@@ -13,7 +13,7 @@
     <groupId>io.github.bergturing</groupId>
     <artifactId>point-parent</artifactId>
     <packaging>pom</packaging>
-    <version>${point.version}</version>
+    <version>0.0.2-RELEASE</version>
 
     <name>point parent</name>
     <description>this is the point's parent module</description>
@@ -40,6 +40,7 @@
     </scm>
 
     <modules>
+        <module>point</module>
         <module>point-core</module>
         <module>point-utils</module>
         <module>point-enhance</module>
@@ -50,23 +51,65 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <point.version>0.0.1-SNAPSHOT</point.version>
+        <point.version>0.0.2-RELEASE</point.version>
+        <slf4j.version>1.7.21</slf4j.version>
     </properties>
 
-    <dependencies>
-        <!--   point依赖开始    -->
-        <!--   point依赖结束    -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
+    <dependencyManagement>
+        <dependencies>
+            <!--   point依赖开始    -->
+            <dependency>
+                <groupId>io.github.bergturing</groupId>
+                <artifactId>point-core</artifactId>
+                <version>${point.version}</version>
+            </dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
+            <dependency>
+                <groupId>io.github.bergturing</groupId>
+                <artifactId>point-utils</artifactId>
+                <version>${point.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.github.bergturing</groupId>
+                <artifactId>point-enhance</artifactId>
+                <version>${point.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.github.bergturing</groupId>
+                <artifactId>point-stream</artifactId>
+                <version>${point.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.github.bergturing</groupId>
+                <artifactId>point-dal</artifactId>
+                <version>${point.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.github.bergturing</groupId>
+                <artifactId>point-excel</artifactId>
+                <version>${point.version}</version>
+            </dependency>
+            <!--   point依赖结束    -->
+
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>${slf4j.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.sun</groupId>
+                <artifactId>tools</artifactId>
+                <version>1.8</version>
+                <scope>system</scope>
+                <systemPath>${java.home}/../lib/tools.jar</systemPath>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <profiles>
         <profile>

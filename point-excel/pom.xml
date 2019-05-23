@@ -6,12 +6,11 @@
     <parent>
         <groupId>io.github.bergturing</groupId>
         <artifactId>point-parent</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.2-RELEASE</version>
         <relativePath/>
     </parent>
 
     <artifactId>point-excel</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <name>point-excel</name>
     <description>点系列-excel相关功能的包装</description>
 
@@ -19,19 +18,21 @@
         <dependency>
             <groupId>io.github.bergturing</groupId>
             <artifactId>point-core</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
         <dependency>
             <groupId>io.github.bergturing</groupId>
             <artifactId>point-utils</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
         <dependency>
             <groupId>io.github.bergturing</groupId>
             <artifactId>point-stream</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
     </dependencies>
 </project>
