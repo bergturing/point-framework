@@ -45,6 +45,7 @@
         <module>point-utils</module>
         <module>point-enhance</module>
         <module>point-stream</module>
+        <module>point-dataset</module>
         <module>point-dal</module>
         <module>point-excel</module>
     </modules>
@@ -79,6 +80,12 @@
             <dependency>
                 <groupId>io.github.bergturing</groupId>
                 <artifactId>point-stream</artifactId>
+                <version>${point.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.github.bergturing</groupId>
+                <artifactId>point-dataset</artifactId>
                 <version>${point.version}</version>
             </dependency>
 

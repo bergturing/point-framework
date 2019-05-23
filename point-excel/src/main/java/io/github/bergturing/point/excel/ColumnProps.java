@@ -1,10 +1,9 @@
 package io.github.bergturing.point.excel;
 
 /**
- * excel相关的实体的简单工厂类
+ * excel列的配置对象
  *
  * @author bergturing@qq.com
  */
-public class ExcelFactory {
-
+public interface ColumnProps {
 }

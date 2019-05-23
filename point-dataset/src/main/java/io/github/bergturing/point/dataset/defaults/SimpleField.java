@@ -1,11 +1,6 @@
-package io.github.bergturing.point.excel.dataset.defaults;
+package io.github.bergturing.point.dataset.defaults;
 
-import io.github.bergturing.point.excel.ExcelFactory;
-import io.github.bergturing.point.excel.Validator;
-import io.github.bergturing.point.excel.dataset.DataSet;
-import io.github.bergturing.point.excel.dataset.Field;
-import io.github.bergturing.point.excel.dataset.FieldProps;
-import io.github.bergturing.point.excel.dataset.Record;
+import io.github.bergturing.point.dataset.*;
 
 /**
  * 属性字段的接口的简单实现
@@ -40,7 +35,7 @@ public class SimpleField implements Field {
      * @param dataSet    数据集对象
      */
     public SimpleField(FieldProps fieldProps, DataSet dataSet) {
-        this.props = ExcelFactory.createFieldProps(fieldProps);
+        this.props = DataSetFactory.createFieldProps(fieldProps);
         this.dataSet = dataSet;
     }
 

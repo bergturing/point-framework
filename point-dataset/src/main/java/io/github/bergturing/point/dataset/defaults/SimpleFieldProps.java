@@ -1,10 +1,10 @@
-package io.github.bergturing.point.excel.dataset.defaults;
+package io.github.bergturing.point.dataset.defaults;
 
 import io.github.bergturing.point.core.prototype.Prototype;
 import io.github.bergturing.point.core.prototype.defaults.AbstractPrototype;
-import io.github.bergturing.point.excel.FieldType;
-import io.github.bergturing.point.excel.Validator;
-import io.github.bergturing.point.excel.dataset.FieldProps;
+import io.github.bergturing.point.dataset.FieldProps;
+import io.github.bergturing.point.dataset.FieldType;
+import io.github.bergturing.point.dataset.Validator;
 
 import java.math.BigDecimal;
 

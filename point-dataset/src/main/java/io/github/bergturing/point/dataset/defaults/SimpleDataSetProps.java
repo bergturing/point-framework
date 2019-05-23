@@ -1,9 +1,9 @@
-package io.github.bergturing.point.excel.dataset.defaults;
+package io.github.bergturing.point.dataset.defaults;
 
 import io.github.bergturing.point.core.prototype.Prototype;
 import io.github.bergturing.point.core.prototype.defaults.AbstractPrototype;
-import io.github.bergturing.point.excel.dataset.DataSetProps;
-import io.github.bergturing.point.excel.dataset.Field;
+import io.github.bergturing.point.dataset.DataSetProps;
+import io.github.bergturing.point.dataset.Field;
 
 import java.util.List;
 import java.util.Locale;

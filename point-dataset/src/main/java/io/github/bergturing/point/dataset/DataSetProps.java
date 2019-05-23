@@ -1,4 +1,4 @@
-package io.github.bergturing.point.excel.dataset;
+package io.github.bergturing.point.dataset;
 
 import java.util.List;
 import java.util.Locale;

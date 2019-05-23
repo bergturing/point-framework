@@ -1,8 +1,8 @@
-package io.github.bergturing.point.excel.dataset.defaults;
+package io.github.bergturing.point.dataset.defaults;
 
-import io.github.bergturing.point.excel.dataset.DataSet;
-import io.github.bergturing.point.excel.dataset.Field;
-import io.github.bergturing.point.excel.dataset.Record;
+import io.github.bergturing.point.dataset.DataSet;
+import io.github.bergturing.point.dataset.Field;
+import io.github.bergturing.point.dataset.Record;
 import io.github.bergturing.point.utils.EntityUtils;
 
 import java.util.HashMap;

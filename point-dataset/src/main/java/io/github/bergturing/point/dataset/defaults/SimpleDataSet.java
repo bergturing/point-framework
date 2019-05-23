@@ -1,7 +1,6 @@
-package io.github.bergturing.point.excel.dataset.defaults;
+package io.github.bergturing.point.dataset.defaults;
 
-import io.github.bergturing.point.excel.ExcelFactory;
-import io.github.bergturing.point.excel.dataset.*;
+import io.github.bergturing.point.dataset.*;
 
 import java.util.*;
 
@@ -58,7 +57,7 @@ public class SimpleDataSet implements DataSet {
 
     public SimpleDataSet(DataSetProps dataSetProps) {
         // 属性赋值
-        this.props = ExcelFactory.createDataSetProps(dataSetProps);
+        this.props = DataSetFactory.createDataSetProps(dataSetProps);
     }
 
     @Override
@@ -130,7 +129,7 @@ public class SimpleDataSet implements DataSet {
     @Override
     public Field addField(String name, FieldProps fieldProps) {
         // 创建属性字段
-        final Field field = ExcelFactory.createField(fieldProps, this);
+        final Field field = DataSetFactory.createField(fieldProps, this);
         // 设置属性字段
         this.fields.put(name, field);
 
@@ -147,7 +146,7 @@ public class SimpleDataSet implements DataSet {
             // 设置值
             this.records = process(dataList, countFunctionStream(),
                     stream -> stream
-                            .map(data -> ExcelFactory.createRecord(data, this))
+                            .map(data -> DataSetFactory.createRecord(data, this))
                             .collect(toList()))
                     .orElse(Collections.emptyList());
 

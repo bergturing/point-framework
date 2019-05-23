@@ -1,4 +1,4 @@
-package io.github.bergturing.point.excel.dataset.annoattions;
+package io.github.bergturing.point.dataset.annoattions;
 
 /**
  * 数据集的注解

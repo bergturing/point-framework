@@ -1,6 +1,4 @@
-package io.github.bergturing.point.excel;
-
-import io.github.bergturing.point.excel.dataset.Record;
+package io.github.bergturing.point.dataset;
 
 /**
  * 校验器接口

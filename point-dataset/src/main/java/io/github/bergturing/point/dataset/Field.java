@@ -1,4 +1,4 @@
-package io.github.bergturing.point.excel.dataset;
+package io.github.bergturing.point.dataset;
 
 /**
  * 属性字段的接口
