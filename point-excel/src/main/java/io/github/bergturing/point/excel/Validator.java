@@ -1,4 +1,4 @@
-package io.github.bergturing.point.excel.validator;
+package io.github.bergturing.point.excel;
 
 import io.github.bergturing.point.excel.dataset.Record;
 

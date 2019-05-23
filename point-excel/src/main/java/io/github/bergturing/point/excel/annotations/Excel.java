@@ -1,6 +1,6 @@
 package io.github.bergturing.point.excel.annotations;
 
-import io.github.bergturing.point.excel.constants.ExcelConstants;
+import io.github.bergturing.point.excel.ExcelConstants;
 import org.springframework.core.annotation.AliasFor;
 
 import java.lang.annotation.*;

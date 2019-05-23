@@ -1,6 +1,6 @@
 package io.github.bergturing.point.excel.annotations;
 
-import io.github.bergturing.point.excel.constants.ExcelConstants;
+import io.github.bergturing.point.excel.ExcelConstants;
 import org.springframework.core.annotation.AliasFor;
 
 import java.lang.annotation.*;
@@ -14,7 +14,7 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Inherited
 @Documented
-public @interface ExcelColumn {
+public @interface Column {
     /**
      * 列名
      *

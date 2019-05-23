@@ -1,7 +1,7 @@
 package io.github.bergturing.point.excel.dataset;
 
-import io.github.bergturing.point.excel.enums.FieldType;
-import io.github.bergturing.point.excel.validator.Validator;
+import io.github.bergturing.point.excel.FieldType;
+import io.github.bergturing.point.excel.Validator;
 
 import java.math.BigDecimal;
 

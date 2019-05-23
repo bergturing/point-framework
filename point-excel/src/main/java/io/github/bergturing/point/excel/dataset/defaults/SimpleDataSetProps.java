@@ -1,4 +1,4 @@
-package io.github.bergturing.point.excel.dataset.impl;
+package io.github.bergturing.point.excel.dataset.defaults;
 
 import io.github.bergturing.point.core.prototype.Prototype;
 import io.github.bergturing.point.core.prototype.defaults.AbstractPrototype;

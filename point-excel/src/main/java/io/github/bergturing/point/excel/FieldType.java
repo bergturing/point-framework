@@ -1,4 +1,4 @@
-package io.github.bergturing.point.excel.enums;
+package io.github.bergturing.point.excel;
 
 /**
  * 字段类型

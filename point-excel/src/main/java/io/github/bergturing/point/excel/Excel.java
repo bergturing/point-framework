@@ -1,4 +1,4 @@
-package io.github.bergturing.point.excel.components;
+package io.github.bergturing.point.excel;
 
 /**
  * excel对象的抽象

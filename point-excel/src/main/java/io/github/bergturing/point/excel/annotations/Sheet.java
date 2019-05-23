@@ -1,6 +1,6 @@
 package io.github.bergturing.point.excel.annotations;
 
-import io.github.bergturing.point.excel.constants.ExcelConstants;
+import io.github.bergturing.point.excel.ExcelConstants;
 
 import java.lang.annotation.*;
 
@@ -13,7 +13,7 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Inherited
 @Documented
-public @interface ExcelSheet {
+public @interface Sheet {
     /**
      * 当前Sheet页的名称
      *
