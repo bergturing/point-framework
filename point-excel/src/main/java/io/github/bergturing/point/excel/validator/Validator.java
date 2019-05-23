@@ -18,5 +18,5 @@ public interface Validator<V, E> {
      * true 表示校验成功
      * false 表示校验失败
      */
-    boolean validate(V value, String name, Record<E> record);
+    boolean validate(V value, String name, Record record);
 }
