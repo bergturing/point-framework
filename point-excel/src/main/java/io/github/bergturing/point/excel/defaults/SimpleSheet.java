@@ -10,5 +10,8 @@ import io.github.bergturing.point.excel.SheetProps;
  * @author bergturing@qq.com
  */
 public class SimpleSheet extends BaseDataSetComponent<SheetProps> implements Sheet {
-
+    /**
+     * Sheet页的配置对象
+     */
+    private SheetProps sheetProps;
 }

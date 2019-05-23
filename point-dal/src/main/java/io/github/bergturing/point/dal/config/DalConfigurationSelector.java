@@ -17,7 +17,7 @@ public class DalConfigurationSelector implements ImportSelector {
      * AspectJ实现分布式应用锁代理的配置
      */
     private static final String DAL_ASPECT_CONFIGURATION_CLASS_NAME =
-            "com.hand.hus.dal.annotations.AspectJDalConfiguration";
+            "io.github.bergturing.point.dal.annotations.AspectJDalConfiguration";
 
     @Override
     public String[] selectImports(AnnotationMetadata importingClassMetadata) {
