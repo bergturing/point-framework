@@ -5,7 +5,7 @@
 
 当前该项目包含以下几个模块
 
-- point：总的point项目所有的依赖；
+- point：point-framework项目的依赖汇总；
 - point-core：核心模块；
 - point-utils：项目中常用的一些工具类；
 - point-enhance：基本类功能的增强；
@@ -56,7 +56,79 @@ maven 依赖地址：
 ```
 该模块是`point-framework`项目的`工具类模块`，提供了在项目中和在其他模块中所使用到的一些工具类的封装，包括以下工具类：
 
-- 
+- ArrayUtils：数组工具类；
+- BatchOperateUtils：分批处理工具类；
+- CollectionUtils：集合工具类；
+- EntityUtils：实体工具类；
+- LoggerUtils：日志工具类；
+- MapUtils：Map工具类；
+- StringUtils：字符串工具类。
+
+### point-enhance
+
+maven 依赖地址：
+```xml
+<dependency>
+    <groupId>io.github.bergturing</groupId>
+    <artifactId>point-enhance</artifactId>
+    <version>0.0.2-RELEASE</version>
+</dependency>
+```
+该模块是`point-framework`项目的`类增强模块`，提供了对类基础功能的增强，包括以下增强：
+
+- SetterR：通过增加`@SetterR`注解，为类字段增加`设值并返回当前对象`的方法。
+
+### point-stream
+
+maven 依赖地址：
+```xml
+<dependency>
+    <groupId>io.github.bergturing</groupId>
+    <artifactId>point-stream</artifactId>
+    <version>0.0.2-RELEASE</version>
+</dependency>
+```
+该模块是`point-framework`项目的`集合流功能增强模块`，对集合流的使用进行增强，包括以下功能：
+
+- 策略流：根据既定的策略决定当前的流是否使用并行流，以提升系统的性能，目前已增加基于数量进行判断的策略。
+
+### point-dataset
+
+maven 依赖地址(未发布)：
+```xml
+<dependency>
+    <groupId>io.github.bergturing</groupId>
+    <artifactId>point-dataset</artifactId>
+    <version>0.0.2-RELEASE</version>
+</dependency>
+```
+该模块是`point-framework`项目的`数据集模块`，对数据集的一个包装，主要用于需数据展示功能（如Excel导出）数据层的抽象。
+
+### point-dal
+
+maven 依赖地址：
+```xml
+<dependency>
+    <groupId>io.github.bergturing</groupId>
+    <artifactId>point-dal</artifactId>
+    <version>0.0.2-RELEASE</version>
+</dependency>
+```
+该模块是`point-framework`项目的`分布式应用锁模块`，提供了分布式应用锁的功能，该模块适用于需要使用分布式锁的场景，直接引入该模块的依赖即可使用分布式应用锁的功能。
+
+目前只提供基于`Redis`的分布式应用锁，提供`编程式`和`注解式`分布式应用锁使用方式。
+
+### point-excel
+
+maven 依赖地址：
+```xml
+<dependency>
+    <groupId>io.github.bergturing</groupId>
+    <artifactId>point-excel</artifactId>
+    <version>0.0.2-RELEASE</version>
+</dependency>
+```
+该模块是`point-framework`项目的`Excel操作模块`，提供对`Excel`操作的封装。
 
 
 
