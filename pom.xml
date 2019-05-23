@@ -13,7 +13,7 @@
     <groupId>io.github.bergturing</groupId>
     <artifactId>point-parent</artifactId>
     <packaging>pom</packaging>
-    <version>${point.version}</version>
+    <version>0.0.2-RELEASE</version>
 
     <name>point parent</name>
     <description>this is the point's parent module</description>
@@ -51,7 +51,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <point.version>0.0.1-RELEASE</point.version>
+        <point.version>0.0.2-RELEASE</point.version>
         <slf4j.version>1.7.21</slf4j.version>
     </properties>
 
