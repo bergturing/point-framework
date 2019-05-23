@@ -7,7 +7,6 @@ import org.junit.Test;
  * SetterR处理器的测试类
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/21
  */
 public class SetterRProcessorTests {
     @Test

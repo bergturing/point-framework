@@ -12,17 +12,18 @@ import java.util.UUID;
  * 分布式锁对象
  *
  * @author bergturing@qq.com
- * @apiNote 2019/3/14
  */
 public class Lock implements Cloneable {
     /**
      * 默认分组
      */
-    public static final String DEFAULT_GROUP = "hus:lock:default:";
+    public static final String DEFAULT_GROUP = "point:dal:lock:default:";
+
     /**
      * 默认锁的存活时间：30分钟 单位 毫秒(mms)
      */
     public static final long DEFAULT_EXPIRE = 30 * 60 * 1000L;
+
     /**
      * 初始化原型对象
      */
@@ -32,10 +33,12 @@ public class Lock implements Cloneable {
             return (Lock) prototype.clone();
         }
     };
+
     /**
      * 默认key
      */
     private static final String DEFAULT_KEY = "-1";
+
     /**
      * 锁所属的分组
      */

@@ -4,7 +4,6 @@ package io.github.bergturing.point.utils.entity;
  * 实体工具类的辅助测试对象
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/19
  */
 public class Entity {
     /**

@@ -12,7 +12,6 @@ import java.lang.annotation.Annotation;
  * 分布式应用锁后置处理器
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/10
  */
 public class DalAnnotationBeanPostProcessor extends AbstractBeanFactoryAwareAdvisingPostProcessor {
     /**

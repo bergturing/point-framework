@@ -10,7 +10,6 @@ import java.util.stream.Stream;
  * 基于数量的流策略(方法)
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/9
  */
 public class CountFunctionStream<E, R> extends AbstractCountStream implements FunctionStream<E, R> {
     public CountFunctionStream() {

@@ -21,7 +21,6 @@ import static java.util.stream.Collectors.toList;
  * 分布式应用锁测试
  *
  * @author bergturing@qq.com
- * @apiNote 2019/4/11
  */
 public class DalUtilsTests extends PointDalApplicationTests {
     /**

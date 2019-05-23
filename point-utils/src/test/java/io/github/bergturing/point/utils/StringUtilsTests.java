@@ -6,7 +6,6 @@ import org.junit.Test;
  * 字符串工具类测试类
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/19
  */
 public class StringUtilsTests {
     @Test

@@ -4,7 +4,6 @@ package io.github.bergturing.point.stream.strategy.defaults.components;
  * 累计实体对象
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/9
  */
 public class GrandEntity {
     /**

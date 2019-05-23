@@ -33,7 +33,6 @@ import static org.springframework.util.ClassUtils.getMostSpecificMethod;
  * 分布式应用锁执行的拦截器
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/10
  */
 public class DalExecutionInterceptor extends BaseDalExecutionAspectSupport implements MethodInterceptor, Ordered {
     public DalExecutionInterceptor(DalExecutor dalExecutor) {

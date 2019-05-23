@@ -12,7 +12,6 @@ import java.util.stream.Stream;
  * 累计资源消耗的策略
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/9
  */
 public class GrandConsumerStream<E> implements ConsumerStream<E> {
     /**

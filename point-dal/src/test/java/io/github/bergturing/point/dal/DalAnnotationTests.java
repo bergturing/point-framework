@@ -15,7 +15,6 @@ import static java.util.stream.Collectors.toList;
  * 分布式应用锁注解的测试
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/21
  */
 public class DalAnnotationTests extends PointDalApplicationTests {
     /**

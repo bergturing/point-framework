@@ -10,7 +10,6 @@ import java.lang.annotation.*;
  * 当前注解应用到参数上，表明需要对改参数进行加锁
  *
  * @author bergturing@qq.com
- * @apiNote 3/26/2019
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)

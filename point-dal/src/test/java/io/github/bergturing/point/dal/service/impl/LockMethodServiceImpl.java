@@ -21,7 +21,6 @@ import static io.github.bergturing.point.utils.LoggerUtils.debug;
  * 对方法加锁的服务实现
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/21
  */
 @Service(SERVICE_METHOD)
 public class LockMethodServiceImpl implements ILockService {

@@ -11,7 +11,6 @@ import org.springframework.data.redis.core.StringRedisTemplate;
  * 分布式应用锁的配置文件
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/10
  */
 @Configuration
 public class ProxyRedisDalConfiguration extends AbstractProxyDalConfiguration {

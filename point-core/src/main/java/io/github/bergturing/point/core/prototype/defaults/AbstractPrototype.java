@@ -11,7 +11,6 @@ import java.util.Objects;
  * 原型拷贝的抽象实现
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/21
  */
 public abstract class AbstractPrototype<T> implements Prototype<T> {
     /**

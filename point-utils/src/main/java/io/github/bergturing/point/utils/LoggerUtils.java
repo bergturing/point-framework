@@ -6,7 +6,6 @@ import org.slf4j.Logger;
  * 日志工具类
  *
  * @author bergturing@qq.com
- * @apiNote 2019/5/19
  */
 public class LoggerUtils {
     /**

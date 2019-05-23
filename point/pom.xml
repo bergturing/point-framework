@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>io.github.bergturing</groupId>
+        <artifactId>point-parent</artifactId>
+        <version>0.0.2-RELEASE</version>
+        <relativePath/>
+    </parent>
+
+    <artifactId>point</artifactId>
+    <name>point</name>
+    <description>点系列项目</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.github.bergturing</groupId>
+            <artifactId>point-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.bergturing</groupId>
+            <artifactId>point-utils</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.bergturing</groupId>
+            <artifactId>point-enhance</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.bergturing</groupId>
+            <artifactId>point-stream</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.bergturing</groupId>
+            <artifactId>point-dal</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.bergturing</groupId>
+            <artifactId>point-excel</artifactId>
+        </dependency>
+    </dependencies>
+</project>
