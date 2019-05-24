@@ -6,8 +6,6 @@ import org.slf4j.LoggerFactory;
 
 import java.lang.reflect.Method;
 
-import static io.github.bergturing.point.utils.LoggerUtils.error;
-
 /**
  * 分布式应用锁的支持
  *
@@ -85,11 +83,7 @@ public abstract class BaseDalExecutionAspectSupport {
      * @param params 调用的方法参数
      */
     protected void handleError(Throwable ex, Method method, Object... params) {
-        try {
-            this.exceptionHandler.handleUncaughtException(ex, method, params);
-        } catch (Throwable ex2) {
-            error(logger, "Exception handler for dal method '" + method.toGenericString() +
-                    "' threw unexpected exception itself", ex2);
-        }
+        // 处理未捕获的异常
+        this.exceptionHandler.handleUncaughtException(ex, method, params);
     }
 }
