@@ -18,6 +18,12 @@ public class EntityUtilsTests {
 
         assert 11L == entity.getId();
         assert "BergTuring".equals(entity.getName());
+
+        EntityUtils.setDataValue(entity, "id", null);
+        EntityUtils.setDataValue(entity, "name", null);
+
+        assert null == entity.getId();
+        assert null == entity.getName();
     }
 
     @Test

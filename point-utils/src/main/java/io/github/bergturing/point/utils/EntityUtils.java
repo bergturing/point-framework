@@ -68,7 +68,8 @@ public class EntityUtils {
 
         try {
             //获取当前字段的set方法
-            Method setMethod = source.getClass().getDeclaredMethod("set" + StringUtils.toUpperCaseFirstOne(fieldName), value.getClass());
+            Method setMethod = source.getClass().getDeclaredMethod("set" + StringUtils.toUpperCaseFirstOne(fieldName),
+                    null == value ? Object.class : value.getClass());
             // 获取set方法
             methodResult = setMethod.invoke(source, value);
         } catch (NoSuchMethodException e) {
